@@ -1,0 +1,12 @@
+*gz
+*kmc*
+sample.list
+lsf.err
+lsf.out
+genome.kmer.db
+*dump
+*jobid
+*blast
+*tsv
+*bed
+*pdf
