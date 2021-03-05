@@ -2,7 +2,7 @@
 
 In this document, I will detect the introgression region from KF21 (wheat Zhou18 X <i>Aegilops tauschii</i> T015) as an example.
 
-Methods
+Available methods
 
 1. Low depth (<1X) resequencing data k-mer (Recommend)
 2. High depth (>10X) resequencing data mapping
