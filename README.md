@@ -21,12 +21,14 @@ Available methods
 
 This is an alignment-free method to detect introgression fragment.
 
+![kmer-method-workflow](./kmer-method-workflow.png)
+
 1. Step1: count each sample k-mer
    Use the parameter "-ci1" to contain all k-mer
 2. Step2: Generate KF21 k-mer dataset for detect introgression fragments
    1. Compare parent1 T015 and parent2 Zhou18 k-mer dataset, only remain T015 special k-mer.
    Using the parameter "-ci3" to ignore low-frequency k-mer, which may be caused by sequencing error
-   2. Compare KF21 k-mer to "T015 special k-mer", only remain common k-mer
+   1. Compare KF21 k-mer to "T015 special k-mer", only remain common k-mer
 3. Step3: The introgression fragment is determined according to the k-mer distribution density at the chromosome
 
 - Benchmark
