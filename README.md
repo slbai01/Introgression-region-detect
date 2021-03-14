@@ -7,7 +7,8 @@ Available methods
 1. Low depth (<1X) resequencing data k-mer (Recommend)
 2. High depth (>10X) resequencing data mapping
 3. Low depth (<1X) resequencing data mapping
-4. exon capture (on the way)
+4. Genotyping by sequencing (GBS), Restriction site Associated DNA Sequencing (RAD-Seq)
+5. exon capture (on the way)
 
 ## prepare-data
 
